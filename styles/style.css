@@ -1,0 +1,99 @@
+:root{
+    --marrom: #302727;
+    --vermelho: #ba2d2d;
+    --laranja: #f2511b;
+    --laranjaTransparente: #f2871b6f;
+    --laranjaClaro: #f2861b;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+}
+
+header, footer{
+    background-color: var(--vermelho);
+}
+
+.nav-link, footer{
+    color: var(--branco)!important;
+}
+
+#bannerSection{
+    height: 650px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#infoBanner{
+    width: 500px;
+    padding: 2rem;
+    background-color: var(--laranjaTransparente);
+}
+
+#servicosDiv{
+    background-color: var(--marrom);
+    color: var(--branco);
+}
+
+#imgBeneficios{
+    border-radius: 10px;
+}
+
+#cartao1{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../images/cartaoUm.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao2{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../images/cartaoDois.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao3{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../images/cartaoTres.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tabela{
+    border: #302727;
+    border-radius: 15px ;
+    box-shadow: 8px 8px 8px #3027279a;
+}
+
+th{
+    background-color: var(--vermelho)!important;
+    color: var(--branco)!important;
+}
+
+th:hover{
+    background-color: #800000!important;
+}
+
+th:empty{
+    border: none!important;
+    background-color: transparent!important;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+#horarios td, #horarios th{
+    height: 50px;
+}
+
+td:hover{
+    background-color: #e97272ac!important;
+}
