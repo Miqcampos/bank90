@@ -1,3 +1,3 @@
 # bank90
 
-![banner](https://github.com/Miqcampos/bank90/assets/145502751/2ca16191-9694-4436-9405-1c89e4faeb48)
+<img width="1366" height="2468" alt="Bank 90 - " src="https://github.com/user-attachments/assets/a1b50651-3385-43da-a035-f39bea11938c" />
